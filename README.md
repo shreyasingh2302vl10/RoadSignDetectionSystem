@@ -17,12 +17,13 @@ It contains labeled images of different traffic signs such as stop signs, speed 
 
 ## Training Command
 !yolo task=detect mode=train model=yolov8n.pt data=/content/RoadSignDetection/Self-Driving-Cars-6/data.yaml epochs=10 imgsz=640 batch=16
+
 <div align="center">
   <h3> INPUT IMAGE</h3>
-  <img src="https://raw.githubusercontent.com/shreyasingh2302vl10/RoadSignDetectionSystem/main/traffic_light.png" width="500">
+  <img src="https://raw.githubusercontent.com/shreyasingh2302vl10/RoadSignDetectionSystem/80db69d9731d064d849590a1df6273d6988ae871/traffic_light.png" width="500">
   
   <br><br>
   
   <h3> DETECTION RESULT (OUTPUT)</h3>
-  <img src="https://raw.githubusercontent.com/shreyasingh2302vl10/RoadSignDetectionSystem/main/traffic_light.jpg" width="500">
+  <img src="https://raw.githubusercontent.com/shreyasingh2302vl10/RoadSignDetectionSystem/80db69d9731d064d849590a1df6273d6988ae871/traffic_light.jpg" width="500">
 </div>

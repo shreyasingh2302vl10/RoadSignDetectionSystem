@@ -10,13 +10,19 @@ https://universe.roboflow.com/selfdriving-car-qtywx/self-driving-cars-lfjou
 It contains labeled images of different traffic signs such as stop signs, speed limit signs, and traffic lights. The dataset is formatted for YOLO object detection training.
 ## Technology Used
 **Framework:** Ultralytics YOLOv8
+<br>
 **Platform:** Google Colab (GPU T4)
+<br>
 **Dataset:** Roboflow (Self-Driving-Cars)
 
 ## Training Command
 !yolo task=detect mode=train model=yolov8n.pt data=/content/RoadSignDetection/Self-Driving-Cars-6/data.yaml epochs=10 imgsz=640 batch=16
-### INPUT IMAGE 
-![given image](https://github.com/shreyasingh2302vl10/RoadSignDetectionSystem/blob/80db69d9731d064d849590a1df6273d6988ae871/traffic_light.png)
-### OUTPUT IMAGE 
-![output image](https://github.com/shreyasingh2302vl10/RoadSignDetectionSystem/blob/80db69d9731d064d849590a1df6273d6988ae871/traffic_light.jpg)
-
+<div align="center">
+  <h3> INPUT IMAGE</h3>
+  <img src="https://raw.githubusercontent.com/shreyasingh2302vl10/RoadSignDetectionSystem/main/traffic_light.png" width="500">
+  
+  <br><br>
+  
+  <h3> DETECTION RESULT (OUTPUT)</h3>
+  <img src="https://raw.githubusercontent.com/shreyasingh2302vl10/RoadSignDetectionSystem/main/traffic_light.jpg" width="500">
+</div>

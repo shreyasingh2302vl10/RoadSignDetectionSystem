@@ -16,3 +16,6 @@ Google Colab
 
 ## Training Command
 yolo task=detect mode=train model=yolov8n.pt data=data.yml epochs=10 imgsz=640 batch=16
+![given image](https://github.com/shreyasingh2302vl10/RoadSignDetectionSystem/blob/80db69d9731d064d849590a1df6273d6988ae871/traffic_light.png)
+![output image](https://github.com/shreyasingh2302vl10/RoadSignDetectionSystem/blob/80db69d9731d064d849590a1df6273d6988ae871/traffic_light.jpg)
+
